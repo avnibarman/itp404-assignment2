@@ -9,5 +9,3 @@ pluralize: function(word){
     }
 }
 };
-
-string.pluralize("cat");
