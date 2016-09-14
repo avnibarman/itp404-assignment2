@@ -1,4 +1,4 @@
-var string = {
+var string = {   
 name: "string",
 pluralize: function(word){
     if (word.substring(word.length - 1) == "y"){

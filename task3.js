@@ -11,4 +11,4 @@ Array.prototype.map2 = function(callbackFunction){
 var numbersDoubled = numbers.map2(function(number) {
   return number*2;
 });
-console.log(numbersDoubled); // should equal [2, 4, 6, 8, 10]
+console.log(numbersDoubled); //should equal [2, 4, 6, 8, 10]

@@ -1,6 +1,6 @@
 function Book(title, quantity, price){
   this.title = title;
-  this.quantity = quantity; 
+  this.quantity = quantity;    
   this.price = price;
 }
 
