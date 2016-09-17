@@ -37,7 +37,6 @@ ShoppingCart.prototype.getTotal = function(){
   
   var total = this.cart.reduce(function(sum, item){
       sum = sum + item.getSubtotal();
-    console.log(sum);
     return sum;},0);
   
   return total;
